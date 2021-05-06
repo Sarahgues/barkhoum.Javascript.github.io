@@ -31,14 +31,16 @@ btn.addEventListener("click", () => {
 });
 //*****************Mouse Event */
 const mouseEvent = document.querySelector(".mouseEvent");
-const horizontal = document.querySelector(".horizontal ");
+const horizontal = document.querySelector(".horizontal");
 const vertical = document.querySelector(".vertical");
 
-mouseEvent.addEventListener("mousemouve", (event) => {
-    console.log(event);
+mouseEvent.addEventListener("mousemove", (e) => {
+    // console.log(e);
+    horizontal.innerHTML = e.x;
+    vertical.innerHTML = e.y;
 });
 
-const dateNaissance = (date) => {
-    console.log("date de naissance" + date);
-};
-dateNaissance("  23 / 02 / 1981 ");
+// const dateNaissance = (date) => {
+//     console.log('date de naissance' + date);
+// };
+// dateNaissance(`23 /02/ 1981`);
