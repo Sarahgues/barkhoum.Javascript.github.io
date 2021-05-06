@@ -30,16 +30,15 @@ btn.addEventListener("click", () => {
     img.classList.toggle("show");
 });
 //*****************Mouse Event */
-const mouseEvent = document.querySelector('.mouseEvent');
-const horizontal = document.querySelector('.horizontal ');
-const vertical = document.querySelector('.vertical');
+const mouseEvent = document.querySelector(".mouseEvent");
+const horizontal = document.querySelector(".horizontal ");
+const vertical = document.querySelector(".vertical");
 
-
-mouseEvent.addEventListener('mousemouve', (event) => {
+mouseEvent.addEventListener("mousemouve", (event) => {
     console.log(event);
-})
+});
 
 const dateNaissance = (date) => {
-    console.log('date de naissance' + date);
-}
-dateNaissance('  23 / 02 / 1981 ');
+    console.log("date de naissance" + date);
+};
+dateNaissance("  23 / 02 / 1981 ");
