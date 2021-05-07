@@ -23,8 +23,8 @@
 // FaireUneChose('des pates');
 
 /////)/bouton
-const btn = document.querySelector("#btn");
-const img = document.getElementById("img");
+const btn = document.querySelector("btn");
+const img = document.querySelector("img");
 
 btn.addEventListener("click", () => {
     img.classList.toggle("show");
@@ -39,6 +39,13 @@ mouseEvent.addEventListener("mousemove", (e) => {
     horizontal.innerHTML = e.x;
     vertical.innerHTML = e.y;
 });
+let age = 40;
+console.log(age + " ans");
+const prenom = " Barkhoum";
+console.log(prenom);
+const nom = " Guesmia";
+console.log(nom);
+console.log("je m appelle" + prenom + nom + " et j ai " + age + " ans.");
 
 // const dateNaissance = (date) => {
 //     console.log('date de naissance' + date);
