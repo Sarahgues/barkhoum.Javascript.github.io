@@ -34,9 +34,8 @@ img {
 }
 
 .theme {
-    height: 30px;
-    width: 30px;
-    cursor: pointer;
+    height: 20px;
+    width: 90px;
 }
 
 #dark {
@@ -63,5 +62,10 @@ img {
 
 .purpleTheme {
     background: rgb(184, 85, 184);
+    color: white;
+}
+
+li {
+    list-style: none;
     color: white;
 }
